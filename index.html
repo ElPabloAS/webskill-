@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="icon" href="logos/logo.png">
+    </head>
+
+    <body>
+        <a name="top"></a>
+        <header style="background-color: #E5FAE9;">
+            <section>
+                <nav
+                    class="navbar navbar-expand-sm navbar-light bg-light bg-transparent"
+                >
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="logos/logo.png" width="80px" alt=""></a>
+                        <button
+                            class="navbar-toggler d-lg-none"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId"
+                            aria-controls="collapsibleNavId"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        id="dropdownId"
+                                        data-bs-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        >Selecciona categoria</a
+                                    >
+                                    <div
+                                        class="dropdown-menu"
+                                        aria-labelledby="dropdownId"
+                                    >
+                                        <a class="dropdown-item" href="#"
+                                            >Anfibios</a
+                                        >
+                                        <a class="dropdown-item" href="#"
+                                            >Aves</a
+                                        >
+                                        <a class="dropdown-item" href="#"
+                                            >Mamiferos</a
+                                        >
+                                        <a class="dropdown-item" href="#"
+                                            >Peces</a
+                                        >
+                                        <a class="dropdown-item" href="reptiles.html"
+                                            >Reptiles</a
+                                        >
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#registrateID" href="#">Registrate</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " data-bs-toggle="modal" data-bs-target="#iniciaSesionID" href="#">Inicia sesion</a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </nav>
+                
+            </section>
+        </header>
+        <main style="background-color: #f6f9fb;">
+
+            <section class="container">
+                <div id="carouselId" class="carousel slide pt-4" data-bs-ride="carousel">
+                    <ol class="carousel-indicators list-unstyled">
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="First slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="1"
+                            aria-label="Second slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="2"
+                            aria-label="Third slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="3"
+                            aria-label="Four slide"
+                        ></li>
+                        <li
+                            data-bs-target="#carouselId"
+                            data-bs-slide-to="4"
+                            aria-label="Third slide"
+                        ></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img
+                                src="carrusel/anfibios1.png"
+                                class="w-100 d-block"
+                                alt="First slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="carrusel/aves1.png"
+                                class="w-100 d-block"
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="carrusel/mamiferos1.png"
+                                class="w-100 d-block"
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="carrusel/peces1.png"
+                                class="w-100 d-block"
+                                alt="Four slide"
+                            />
+                        </div>
+                        <div class="carousel-item">
+                            <img
+                                src="carrusel/reptiles1.png"
+                                class="w-100 d-block"
+                                alt="Five slide"
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="prev"
+                    >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselId"
+                        data-bs-slide="next"
+                    >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                   </div>
+
+                   <div class="text-center">
+                    <p class="h1">Catálogo de animaes</p>
+                    <p class="h2">Los otros animales de la tierra</p>
+                    <div class="row justify-content-center pb-3">
+                        <div class="col-8 col-sm-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 ms-1 me-1 row">
+                            <a href=" "><img class="img-fluid rounded-circle" src="categorias/anfibios.jpeg" alt=""></a>
+                            <a class="btn btn-sm text-white mt-3 mb-3" href="#" role="button" style="background-color: #28A743;">Anfibios</a>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 ms-1 me-1 row">
+                            <a href=" "><img class="img-fluid rounded-circle" src="categorias/aves.jpeg" alt=""></a>
+                           <a class="btn text-white btn-sm  mt-3 mb-3" href="#" role="button" style="background-color: #28A743;">Aves</a>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 ms-1 me-1 row">
+                            <a href=" "><img class="img-fluid rounded-circle" src="categorias/maniferos.jpeg" alt=""></a>
+                            <a class="btn text-white btn-sm  mt-3 mb-3" href="#" role="button" style="background-color: #28A743;">Mamiferos</a>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 ms-1 me-1 row">
+                            <a href=" "><img class="img-fluid rounded-circle" src="categorias/peces.jpeg" alt=""></a>
+                            <a class="btn text-white btn-sm  mt-3 mb-3" href="#" role="button" style="background-color: #28A743;">Peces</a>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 ms-1 me-1 row">
+                            <a href="reptiles.html"><img class="img-fluid rounded-circle" src="categorias/reptiles.jpeg" alt=""></a>
+                            <a class="btn text-white btn-sm  mt-3 mb-3" href="reptiles.html" role="button" style="background-color: #28A743;">Reptiles</a>
+                        </div>
+                    </div>
+                   </div>
+            </section>
+           
+           
+           
+            
+
+
+
+
+        </main>
+        <footer class="" style="background-color: #6D747E;">
+            <section class="container">
+                <div class="text-center pt-3"><h3> CLM SKILL WEB - 2021</h3></div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-3 text-center">
+                        <a class="btn btn-sm text-light mb-3" href="#top" role="button" style="background-color: #28A743;">SUBIR</a>
+                    </div>
+                    <div class="col-8 col-md-3 text-center">
+                        <div>Centros participantes</div>
+                        <div><a class="text-light" href="http://www.ies-azarquiel.es/ " style="text-decoration: none;">I.E.S Azarquiel</a></div>
+                        <div><a class="text-light" href="http://www.iesjuanbosco.es/" style="text-decoration: none;">I.E.S. Juan Bosco</a></div>
+                        <div><a class="text-light" href="http://iesmaestredecalatrava.es/" style="text-decoration: none;">I.E.S. Maestre de Calatrava</a></div>
+                        <div><a class="text-light" href="https://cifpvirgendegracia.com/" style="text-decoration: none;">C.I.F.P. Virgen de Gracia</a></div> 
+                        <div><a class="text-light" href="http://www.iesgregorioprieto.com/" style="text-decoration: none;">I.E.S. Gregorio Prieto</a></div>
+                        <div><a class="text-light" href="https://www.iespedromercedes.es/" style="text-decoration: none;">I.E.S. Pedro Mercedes</a></div>
+                        <div><a class="text-light" href="http://briandademendoza.es/" style="text-decoration: none;">I.E.S. Brianda de Mendoza</a></div>
+                        <div><a class="text-light" href="http://riberadeltajo.es/nuevaweb/" style="text-decoration: none;">I.E.S. Ribera del Tajo</a></div>
+                    </div>
+                    <div class="col-8 col-md-3 text-center pt-3 pt-md-0">
+                        <div><a class="text-light" href="quienes.html" style="text-decoration: none;">Quienes somos</a></div>
+                        <div><a class="text-light" data-bs-toggle="modal" data-bs-target="#privacidadID" href="" style="text-decoration: none;">Privacidad</a></div>
+                        <div><a class="text-light" data-bs-toggle="modal" data-bs-target="#contactoID" href="" style="text-decoration: none;">Contacto</a></div>
+                    </div>
+                    <div class="col-8 col-md-3 text-center mt-3">
+                        <a class="btn btn-sm text-light " href="index.html" role="button" style="background-color: #28A743;">HOME</a>
+                    </div>
+                </div>
+                <div class="text-center mt-3">Catalogo de animales S1DAM &#169 - S1DAW</div>
+              </section>
+            
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+
+</html>
+
+
+
+
+<!-- Modal privacidad -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="privacidadID" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitleId">
+                    Privacidad
+                </h5>
+            </div>
+            <div class="modal-body ">
+
+                <h2 class="text-center">Términos y Condiciones de uso</h2>
+                <h3>1. Datos generales</h3>
+                <div class="container">
+                    <p class="fw-bolder  ps-4 ">De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de
+                        Servicios de la Sociedad de la
+                        Información y de Comercio Electrónico ponemos a su disposición los siguientes datos:</p>
+
+                    <p class=" ps-4 ">catalogodeanimales.es está domiciliada en Ia calle Ronda S/N, con CIF B556677.
+                        Inscrita en el Registro
+                        Mercantil de Talavera de la Reina, Vol. xxxx, Folio xxxx, Hoja xxxx, Inscripción xxx. </p>
+
+                    <p class=" ps-4 ">En la web catalogodeanimales.es hay una serie de contenidos de carácter
+                        informativo sobre animales,
+                        especies, y características. <strong>Su principal objetivo </strong>es facilitar a los
+                        clientes y al público en
+                        general, la información relativa a la empresa, a los productos y servicios que se ofrecen.
+                    </p>
+                </div>
+                <h3>2. Datos generales</h3>
+                <div class="container">
+                    <p class="ps-4 ">En cumplimiento de 10 dispuesto en la <strong>Ley Orgánica 15/1999, de 13 de
+                            Diciembre, de Protección
+                            de Datos de Carácter Personal (LOPD)</strong> se informa al usuario que todos los datos que
+                        nos
+                        proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de
+                        catalogodeanimales.es.</p>
+
+                    <p class=" ps-4 ">Siempre <strong> se va a respetar la confidencialidad de sus datos
+                            personales</strong> que sólo serán utilizados con
+                        Ia finalidad de gestionar los servicios ofrecidos, atender a las solicitudes que nos plantee,
+                        realizar
+                        tareas administrativas, así como remitir información técnica, comercial o publicitaria por vía
+                        ordinaria o
+                        electrónica.
+                    </p>
+
+                    <p class="ps-4 ">
+                        Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a la sede
+                        de la
+                        empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
+                        contacto@catalogodeanimales.es o llámanos al 777888999.
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success ps-5 pe-5" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Modal contacto -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="contactoID" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content ">
+
+            <div class=" modal-body">
+                <div class="row text-center mb-3">
+                    <h2 class="modal-title border-0  " id="modalTitleId">
+                        Escribe un comentario para contactar
+                    </h2>
+                </div>
+
+                <div class="container border rounded-3">
+                    <form>
+
+                        <div class=" row justify-content-center align-items-center">
+                            <div class="form-group mt-3">
+                                <label for="exampleInputEmail1">Nombre</label>
+                                <input type="text" class="form-control" id="exampleName" aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="form-group mt-4">
+                                <label for="exampleInputEmail1">Tu Email</label>
+                                <input type="text" class="form-control" id="exampleEmail" aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="form-group pt-3 ">
+                                <label for="exampleFormControlTextarea1">Tu comentario</label>
+                                <textarea class="form-control  form-control-lg" id="exampleFormControlTextarea1"
+                                    rows="5"></textarea>
+                            </div>
+
+
+                            <div class="form-group row  my-3">
+                                <button type="submit" class="btn text-light " style="background-color: #28A743;">
+                                    Enviar
+                                </button>
+
+
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Modal registrateID -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="registrateID" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md" role="document">
+        <div class="modal-content ">
+
+            <div class=" modal-body ">
+                <div class="row text-center mb-3 border border-0 ">
+                    <h2 class="modal-title " id="modalTitleId">
+                        Registro de usuario
+                    </h2>
+                </div>
+
+                <div class="container border rounded-3">
+                    <form>
+
+                        <div class=" row justify-content-center align-items-center">
+                            <div class="form-group mt-3">
+                                <label for="exampleInputEmail1">Usuario</label>
+                                <input type="text" class="form-control" id="exampleName" aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label for="exampleInputPassword1" class="form-label">Repite la contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword2">
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="exampleInputDireccion" class="form-label">Direccion</label>
+                                <input type="text" class="form-control" id="exampleInputDireccion">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="exampleInputDireccion" class="form-label">Teléfono</label>
+                                <input type="number" class="form-control" id="exampleInputDireccion">
+                            </div>
+
+                            <div class="form-group row  my-3">
+                                <button type="submit" class="btn text-light " style="background-color: #28A743;">
+                                    Enviar
+                                </button>
+
+
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Modal iniciarSesison -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="iniciaSesionID" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content ">
+
+            <div class=" modal-body">
+                <div class="row text-center mb-3">
+                    <h2 class="modal-title border-0  " id="modalTitleId">
+                        <strong>INICIA SESIÓN</strong>
+                    </h2>
+                </div>
+
+                <div class="container border rounded-3">
+                    <form>
+
+                        <div class=" row justify-content-center align-items-center">
+                            <div class="form-group mt-3">
+                                <label for="exampleInputEmail1">Nombre</label>
+                                <input type="text" class="form-control" id="exampleName" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+
+
+                            <div class="form-group row  my-3">
+                                <button type="submit" class="btn text-light " style="background-color: #28A743;">
+                                    Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
